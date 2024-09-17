@@ -1,0 +1,79 @@
+body{
+  background-image:url("background.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+header, nav{
+    text-align: center;
+}
+img{
+  width: 25%;
+}
+
+.contenitore{
+  color:white;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 9px;
+  margin:auto;
+  margin-top: 50px;
+  width: 1000px;
+  height: 600px;
+  padding: 40px 15px;
+
+}
+
+header h1{
+
+  font-size: 40px;
+  color:#32CD32;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+nav{
+  background-color:#32CD32;
+  width: 70%;
+  height:30px;
+  margin: auto;
+  margin-bottom: 15px;
+  padding-top: 5px;
+}
+
+.scelta div.indirizzo:before{
+  content:"\21A6";
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+
+
+}
+
+div.scelta > span{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.indirizzo{
+  font-size: 15px;
+}
+
+.statocarica, .statocarica2, .statocarica3{
+    height: 20px;
+    margin-bottom: 15px;
+    border-radius:5px;
+
+}
+.statocarica{
+  background-color: orange;
+  width: 250px;
+
+}
+.statocarica2{
+  background-color: green;
+  width: 380px;
+
+  }
+  .statocarica3{
+    background-color: red;
+    width: 100px;
+
+    }
